@@ -327,61 +327,48 @@ img {
 
 /* CONTACT */
 .contact {
-    padding: 60px 0;
-    background: #f5faff;
-}
-
-.contact-container {
-    max-width: 700px;
-    margin: 0 auto;
+    padding: 60px 20px;
+    background: #f9f9f9;
     text-align: center;
 }
 
-.contact-details {
-    margin: 20px 0;
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
     font-size: 1.1rem;
-    font-weight: 500;
+    margin: 8px 0;
 }
 
-.contact-form {
-    margin-top: 20px;
-    display: grid;
-    gap: 15px;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
-}
-
-.contact-form button {
-    background: #0a2a43;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 6px;
+.contact-details a {
+    color: #0077cc;
+    text-decoration: none;
     font-weight: 600;
-    cursor: pointer;
 }
 
-.success-message {
-    display: none;
-    color: #0a2a43;
-    margin-top: 15px;
+.contact-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-call,
+.btn-email {
+    padding: 12px 25px;
+    background: #0077cc;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
     font-weight: 600;
-    opacity: 0;
-    transition: opacity 0.6s ease;
+    transition: 0.2s ease;
 }
 
-.success-message.show {
-    display: block;
-    opacity: 1;
+.btn-call:hover,
+.btn-email:hover {
+    background: #005fa3;
 }
 
 /* FOOTER */
